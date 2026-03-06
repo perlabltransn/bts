@@ -1,0 +1,124 @@
+/* Punto 4 - Colores y tipografia */
+/* Punto 6 - Funciona en celular y computadora */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: #f5f5f5;
+  color: #222;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+body {
+  background-color: #bd97dd; /* color de fondo gris claro */
+}
+/* Encabezado */
+header {
+  background-color: #4a0e8f;
+  padding: 20px;
+}
+
+header h1 { color: white; font-size: 26px; }
+.subtitulo { color: #ddd; font-size: 13px; }
+
+/* Navegacion */
+nav {
+  background-color: #8c5bc0;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+}
+section {
+  background: #fff;
+  border: 1px solid #ccaaff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+nav a { color: white; text-decoration: none; margin-right: 15px; }
+nav a:hover { text-decoration: underline; }
+
+/* Titulos */
+h2 {
+  color: #4a0e8f;
+  border-bottom: 1px solid #ccaaff;
+  padding-bottom: 5px;
+  margin: 25px 0 12px 0;
+}
+
+/* Texto */
+p { margin-bottom: 12px; line-height: 1.7; }
+a { color: #4a0e8f; }
+ul { padding-left: 25px; line-height: 2; }
+
+/* Punto 4 - Imagenes */
+.img-derecha {
+  float: right;
+  margin: 0 0 15px 20px;
+  border: 1px solid #ccaaff;
+  background: #faf6ff;
+  text-align: center;
+}
+
+.img-izquierda {
+  float: left;
+  margin: 0 20px 15px 0;
+  border: 1px solid #ccaaff;
+  background: #faf6ff;
+  text-align: center;
+}
+
+.img-derecha img, .img-izquierda img { display: block; }
+.pie-foto { font-size: 12px; color: #666; padding: 5px; }
+.info-bts {
+  animation: fadeIn 0.8s ease-in-out;
+}
+.video-container {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid #ccaaff;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-header {
+  background-color: #ccaaff;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+}
+
+.video-description {
+  padding: 10px;
+  text-align: center;
+}
+
+.video-player {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 0 0 8px 8px;
+}
+.info-bts, .video-container, .referencias {
+  transition: transform 0.3s ease-in-out;
+}
+
+.info-bts:hover, .video-container:hover, .referencias:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  border-top: 2px solid #4a0e8f;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+}
